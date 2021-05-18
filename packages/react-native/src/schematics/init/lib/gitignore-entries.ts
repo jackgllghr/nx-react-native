@@ -47,6 +47,7 @@ buck-out/
 
 ## Bundle artifact
 *.jsbundle
+*.bundle
 
 ## CocoaPods
 **/ios/Pods/

@@ -51,7 +51,7 @@ static void InitializeFlipper(UIApplication *application) {
 #if DEBUG
   return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"<%= appProjectRoot %>/src/main" fallbackResource:nil];
 #else
-  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"bundle"];
 #endif
 }
 
